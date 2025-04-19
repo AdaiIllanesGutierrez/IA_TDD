@@ -23,6 +23,8 @@
   },
   "devDependencies": {
     "@types/node": "^22.14.1",
+    "@types/strip-bom": "^3.0.0",
+    "@types/strip-json-comments": "^0.0.30",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
   },
