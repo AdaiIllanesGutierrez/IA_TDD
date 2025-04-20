@@ -7,13 +7,15 @@ COPY package*.json ./
 
 # Instalar solo dependencias de producción
 RUN npm install --only=production
-
+RUN npm install
+RUN npm install -g typescript
 # Crear estructura para archivos de salida
 RUN mkdir -p dist
 
 # Copiar el código fuente
 COPY . .
 
+RUN npm run build
 # Crear una versión JavaScript del archivo index.ts
 RUN echo '// Converted from TypeScript to JavaScript\n\
 const express = require("express");\n\
