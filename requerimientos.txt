@@ -1,0 +1,22 @@
+comandos para generar el proyecto 
+npm init -y
+npm install -D typescript ts-node-dev @types/express
+npx tsc --init
+npm install express axios dotenv
+npm install -D typescript ts-node-dev @types/node @types/express
+npm install together-ai
+npm install axios  
+npm install -D tsx
+
+PARA HACER CORRER LOCALMENTE 
+npm run dev
+
+PARA LAS PRUEBAS 
+npm install --save-dev jest ts-jest @types/jest
+npm install --save-dev jest-mock-extended  
+npx jest
+npm install --save-dev jest ts-jest @types/jest @babel/preset-env
+npm install --save-dev cross-env
+
+HACER CORRER LAS PRUEBAS 
+npm test
